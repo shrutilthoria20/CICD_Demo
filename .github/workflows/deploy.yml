@@ -27,4 +27,4 @@ jobs:
           aws-region: ap-south-1
 
       - run: |
-          aws s3 sync build/ s3://my-cicd-demo --delete
+          aws s3 sync build/ s3://my-cicd-demo123 --delete
